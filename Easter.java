@@ -1,9 +1,9 @@
-//Your name
+//Nicholas Rivas
 //this program will calucate the date for easter
 public class Easter{
     public static void main(String[] args) {
         //code goes here
-int y = 1985;       
+int y = 2003;       
 int a = y%19;
 int b= y/100;
  int c = y%100;
@@ -18,5 +18,19 @@ int b= y/100;
 int m = (a + 11 * h + 22 * r)/451;
 int n = ( h + r - 7 * m + 114)/31;
 int p = ( h + r - 7 * m + 114)%31;
+System.out.println("a = "+a);
+System.out.println("b = "+b);
+System.out.println("c = "+c);
+System.out.println("d = "+d);
+System.out.println("e = "+e);
+System.out.println("f = "+f);
+System.out.println("g = "+g);
+System.out.println("h = "+h);
+System.out.println("i = "+i);
+System.out.println("k = "+k);
+System.out.println("r = "+r);
+System.out.println("m = "+m);
+System.out.println("month = "+n);
+System.out.println("day = "+(p+1));
     }
-}
+} 
